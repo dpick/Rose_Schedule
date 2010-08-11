@@ -1,15 +1,16 @@
 from datetime import *
 
-schedule = [ datetime.combine(datetime.now().date(), time(8, 0)),
-	           datetime.combine(datetime.now().date(), time(8, 55)),
-	           datetime.combine(datetime.now().date(), time(9, 50)),
-	           datetime.combine(datetime.now().date(), time(10, 45)),
-	           datetime.combine(datetime.now().date(), time(11, 40)),
-	           datetime.combine(datetime.now().date(), time(12, 35)),
-	           datetime.combine(datetime.now().date(), time(13, 30)),
-	           datetime.combine(datetime.now().date(), time(14, 25)),
-	           datetime.combine(datetime.now().date(), time(15, 20)),
-	           datetime.combine(datetime.now().date(), time(16, 20)) ]
+currentDate = datetime.now().date()
+schedule = [ datetime.combine(currentDate, time(8, 0)),
+	           datetime.combine(currentDate, time(8, 55)),
+	           datetime.combine(currentDate, time(9, 50)),
+	           datetime.combine(currentDate, time(10, 45)),
+	           datetime.combine(currentDate, time(11, 40)),
+	           datetime.combine(currentDate, time(12, 35)),
+	           datetime.combine(currentDate, time(13, 30)),
+	           datetime.combine(currentDate, time(14, 25)),
+	           datetime.combine(currentDate, time(15, 20)),
+	           datetime.combine(currentDate, time(16, 20)) ]
 
 periods = ["1st", "2nd", "3rd", "4th", "5th",  "6th", "7th", "8th", "9th", "10th"]
 
