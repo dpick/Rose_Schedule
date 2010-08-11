@@ -8,7 +8,6 @@ class HomePage:
   @cherrypy.expose
   def index(self):
     tmpl = Template(file='rose_schedule_template.html')
-    tmpl.period_phrase = 'It is currently: '
     tmpl.period = return_difference()
     return str(tmpl)
 
