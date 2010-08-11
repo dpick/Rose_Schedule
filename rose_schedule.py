@@ -1,5 +1,5 @@
 import cherrypy
-from next_class import *
+#from next_class import *
 from Cheetah.Template import Template
 from datetime import time, date, datetime
 
